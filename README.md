@@ -6,17 +6,17 @@
  It grabs an image from inside the directory and turns it into a 256x256 icon, example:
  
  ```
- mydirectory -┬ stuff.txt
+ mydirectory ─┬ stuff.txt
               └ image.png
  ```
  
  Turns into:
  
  ```
- mydirectory -┬ stuff.txt
+ mydirectory ─┬ stuff.txt
               ├ desktop.ini (hidden)
               ├ icon.ico
-			  └ image.png
+              └ image.png
  ```
  
  If an icon doesn't show try changing the capitalization of `icon.ico` or `desktop.ini` otherwise
